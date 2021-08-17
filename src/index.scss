@@ -1,0 +1,133 @@
+@import '../node_modules/lids/dist/lids/lids.css';
+
+/* Extra- Bold */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-bold-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-bold-italic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-bold.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-bold-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-bold-italic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-bold.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Semi Bold */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-semi-bold-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-semi-bold-italic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-semi-bold.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-semi-bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Normal/Regular */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-regular.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Light */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-light-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-light-italic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-light.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Extra- Light */
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-light-italic.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-light-italic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito Sans';
+  src:
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-light.woff2') format('woff2'),
+    url('../node_modules/lids/dist/lids/fonts/nunito-sans-extra-light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
